@@ -1,0 +1,264 @@
+body, html {
+    font-family: 'Poppins', sans-serif;
+	margin: 0;
+	font-size: 16px;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.fakeimg {
+  width: 100%;
+  vertical-align:center;
+  
+}
+.galerija{
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    width: 580px;
+	margin-left:120px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+ 	margin: auto;
+	padding: 0 ;
+	overflow: hidden;
+	position: fixed;
+    top: 0;
+	background-color: #333;
+	width:100%;
+	text-align:center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  margin:5px;
+  color: #f2f2f2;
+  padding-top:2px;
+  padding-bottom:2px;
+  padding-left:12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.slika_pocetna {
+	background-image: url("slike/pocetna.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width:100%;
+    height: 400px;
+}
+.slika_pocetna_2 {
+	background-image: url("slike/pocetna.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+    height: 500px;
+}
+
+.news img {
+	width: 20%;
+	float: left;
+	padding-right:2%;
+	padding-bottom:0.6%;
+	padding-left:12.4%;
+	margin-top:0.8%;
+}
+.news h2 {
+	margin: 1%;
+	font-size: 1.5em;
+	color: #27318b;
+}
+.news hr {
+	margin: 1%;
+	margin-left: 12%;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+.news time {
+	font-size: 90%;
+	font-style: italic;
+}
+
+ul {
+	list-style-type: none;
+	margin: auto;
+	padding: 0 ;
+	overflow: hidden;
+	position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 1 px;
+	background-color: #333;
+}
+li {
+	float: left;
+	margin-left:6.5px;
+}
+li a {
+  float: left;
+  margin:5px;
+  color: #f2f2f2;
+  padding-top:2px;
+  padding-bottom:2px;
+  padding-left:12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+	
+}
+li a:hover {
+	background-color: #111;
+}
+p {
+	text-align: justify;
+	margin-left: 8%;
+	margin-top: 2%;
+}
+.pr_reg{
+	color: red;
+}
+#contact {
+	margin: 1em;
+}
+label {
+	display: block;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 95%;
+}
+
+input[type=submit] {
+    display: block;
+	background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 25%;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.button:hover{
+	background-color: yellow;
+}
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+input[type=submit] {
+    display: block;
+	background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 25%;
+}
+
+
+button:hover{
+  background-color: yellow;
+      cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+footer {
+	background-color: #333;
+	padding: 0.1em;
+	clear: both;
+}
+footer p {
+	color: white;
+	text-align: center;
+	margin: 0.5em;
+}
+footer img {
+	width: 20px;
+}
+
+@media screen and (max-width: 900px) {
+	figure {
+		width: 90%;
+		margin: 1em;
+	}
+	.news img {
+		width: 95%;
+		padding: 0.5em;
+		margin: 0 1em 0.5em 0.5em;
+	}
+	.news time {
+		margin: 0 0 0 1em;
+	}
+	#news_gallery figure {
+		padding: 0.1em;
+		margin: 0 1em 0.5em 1em;
+		float: left;
+		width: 90%;
+		border: 1px solid black;
+	}
+	#news_gallery figcaption {
+		font-size: 90%;
+		text-align: center;
+	}
+
+	#gallery figcaption {
+		font-size: 90%;
+		height: 70px;
+		text-align: center;
+	}
+}
+input[type=text], input[type=email], input[type=password], input[type=file], select, textarea {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 95%;
+}
